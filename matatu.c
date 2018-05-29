@@ -1,6 +1,4 @@
 /*
-Name:vicklyne Gatwiri
-cit 222-010/2015
 A program to be used in matatu business
 */
 #include<stdio.h>
@@ -22,7 +20,7 @@ printf("Enter total amount of fuel : \n");
 scanf("%f",&fuel);
 printf("Enter total amount of lunch : \n");
 scanf("%f",&lunch);
-total=total-lunch-fuel;
+total=total-(lunch+fuel);
 printf("Total amount is %6.2f",total);
 return 0;
 }
